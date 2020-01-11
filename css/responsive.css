@@ -1,0 +1,169 @@
+@media only screen and (min-width: 0px) and (max-width: 667px) {
+    .form-main-box {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .section {
+        display: flex;
+        width: 100%;
+        padding: 25px 0px;
+    }
+    .form-box {
+        width: 100%;
+        background: transparent;
+        padding: 0px;
+    }
+    .heading {
+        margin: 0;
+        color: #222222;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 500;
+    }
+    .banner {
+        display: flex;
+        width: 100%;
+        background: url(../images/eracam-banner.png) repeat-x;
+        background-size: cover;
+        height: 200px;
+        animation: slide 165s linear infinite;
+        overflow: hidden;
+        position: relative;
+    }
+    .top-car {
+        position: absolute;
+        bottom: 13px;
+        left: 20px;
+        height: 50px;
+    }
+    .top-car img{
+        height: 100%;
+    }
+    .top-car-tyre-1 {
+        position: absolute;
+        bottom: 0px;
+        left: 19px;
+        animation: rotate 5s linear infinite;
+        height: 24px;
+        width: 24px;
+    }
+    .top-car-tyre-2 {
+        position: absolute;
+        bottom: 0px;
+        right: 8px;
+        animation: rotate 5s linear infinite;
+        height: 24px;
+        width: 24px;
+    }
+    .brands-logo{
+        display: none;
+    }
+    .space {
+        margin-bottom: 20px;
+    }
+    .service-box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    p.sub-heading {
+         margin: 0px !important;
+    }   
+    .sub-heading .tag-line {
+        display: inline-block;
+        vertical-align: middle;
+        color: #f44336;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1em;
+    }
+    .bg-theme-gradiant{
+        margin-bottom: 25px;
+    }
+    .bg-info-gradiant{
+        margin-bottom: 25px;
+    }
+    .about-img-box {
+        position: relative;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    .choose-us-box-left {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 25px;
+    }
+    .about-widget img{
+        height: 46px;
+    }
+    .site-footer .about-widget .social-block {
+        margin-top: 20px;
+    }
+    .footer-widget.links-widget {
+        margin-top: 35px;
+    }
+    .site-footer .footer-widget .footer-widget-title {
+        margin-bottom: 20px;
+    }
+    .inner-banner {
+        height: 150px;
+    }
+    .inner-banner h3 {
+        color: #fff;
+        margin-top: 0px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .service-enq-box .service-call-btn {
+        display: inline-block;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+        outline: none;
+    }
+    .service-enq-box .button {
+        display: inline-block;
+        padding: 10px 25px;
+        background: #f44336;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+        outline: none;
+    }
+    .contact-info-box{
+        margin-bottom: 25px;
+    }
+    .contact-info-box p{
+        margin: 0px;
+    }
+    .small-screen-btns{
+        display: flex;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 99999;
+        text-align: center; 
+      }
+      .small-screen-btns a{
+        display: inline-block;
+        padding: 10px;
+        font-size: 18px;
+        color: #fff;
+        width: 50%;
+      }
+      .small-screen-btns a.call-btn{
+        background: #f44336;
+      }
+      .small-screen-btns a.mail-btn{
+        background: #2cdd9b;
+      }
+      .camera-type{
+          display: none;
+      }
+   
+}
